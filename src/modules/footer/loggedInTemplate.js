@@ -1,5 +1,6 @@
 export const loggedInTemplate = name => `
   <div class="footer-user">
-    <span id="username"/>${name}</span>
+    <input type="hidden" value="${name}" id="username"/>
+    <span />${name}</span>
   </div>
 `;
