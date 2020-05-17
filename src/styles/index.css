@@ -1,3 +1,10 @@
-body {
-    background: #E0E0E0; 
+:root {
+    --bg-color: #E0E0E0;
+    --primary-color: #84CD7B;
 }
+
+body {
+    background: var(--bg-color); 
+}
+
+@import './header.css';
