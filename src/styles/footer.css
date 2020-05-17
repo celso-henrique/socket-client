@@ -24,6 +24,10 @@
     font-size: 15px;
 }
 
+#footer input[disabled] {
+    background: var(--bg-color);
+}
+
 #footer button {
     background: var(--bg-color);
     font-family: times new roman;
