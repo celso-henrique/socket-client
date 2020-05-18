@@ -10,7 +10,7 @@ $ npm install
 ```
 
 # Running
-Run the socket server with `npm start` command, it will start the app on [localhost:8080](http://localhost:8080):
+Run the socket server with `npm start` command, it will start the app on [localhost:9000](http://localhost:9000):
 ```sh
 $ npm start
 ```
