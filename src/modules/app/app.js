@@ -4,7 +4,7 @@ import { messages } from '../messages';
 import { footer } from '../footer';
 
 export const app = () => {
-  const socket = io('http://localhost:8080');
+  const socket = io('http://socket.celsohenrique.com');
 
   messages(socket);
   footer(socket);
