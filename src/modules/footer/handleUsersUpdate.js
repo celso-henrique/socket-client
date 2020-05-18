@@ -5,11 +5,13 @@ export const handleUsersUpdate = users => {
   const selectedValue = usersSelect.value;
   const hasUser = users.find(({ username }) => username === selectedValue);
 
-  const options = users.map(
-    ({ username }) => `<option value="${username}">${username}</option>`
+  const options = users.reduce(
+    (options, { username }) =>
+      `${options}<option value="${username}">${username}</option>`,
+    '<option value="Todos">Todos</>'
   );
 
-  usersSelect.innerHTML = options.join('');
+  usersSelect.innerHTML = options;
 
   if (hasUser) {
     usersSelect.value = selectedValue;

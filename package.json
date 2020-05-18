@@ -36,6 +36,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "moment": "^2.25.3",
     "reset-css": "^5.0.1",
     "socket.io-client": "^2.3.0",
     "style-loader": "^1.2.1"
